@@ -7,3 +7,7 @@ app = Flask(__name__)
 @app.route('/')  # основная страница
 def index():
     return render_template('base.html')
+
+
+if name == "app":
+    app.run(debug=True)
