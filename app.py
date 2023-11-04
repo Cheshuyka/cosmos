@@ -9,5 +9,5 @@ def index():
     return render_template('base.html')
 
 
-if name == "app":
+if __name__ == "__app__":
     app.run(debug=True)
