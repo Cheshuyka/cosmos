@@ -21,9 +21,9 @@ body {
 }
 
 
-h1 {
+.glow {
     font-family: sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     animation: glow 5s ease-in-out infinite alternate;
     text-align: center;
 }

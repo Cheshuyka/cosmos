@@ -9,6 +9,11 @@ def index():
     return render_template('base.html')
 
 
+@app.route('/map')  # основная страница
+def map():
+    return render_template('map.html')
+
+
 @app.route('/video')  # страница с видео
 def video():
     return render_template('video.html')
