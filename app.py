@@ -40,4 +40,4 @@ def video4():
 
 
 if __name__ == "__app__":
-    app.run(debug=True)
+    app.run()
